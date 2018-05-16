@@ -1,0 +1,98 @@
+.mobile__menu
+  display: flex
+  justify-content: flex-end
+  position: absolute
+  width: 100%
+  height: 100%
+  top: 0
+  pointer-events: none
+  z-index: 15
+  &__container
+    pointer-events: auto
+    display: flex
+    justify-content: center
+    align-items: center
+    width: 200px
+    height: 100%
+    top: 0
+    right: 0
+    background: linear-gradient(to bottom right, $purple1, $purple3)
+    margin-right: -200px
+    transition: all .5s ease-in-out
+  .mobile__nav
+    list-style: none
+    &__item
+      padding: 10px 0px
+      color: white
+      font-size: 14px
+      transition: all .2s ease-in-out
+      &:hover
+        transform: scale(1.2)
+
+.mobile__nav__open
+  margin-right: 0px
+
+*
+  margin: 0
+  padding: 0
+
+#hamburger
+  display: none
+  pointer-events: auto
+  width: 40px
+  height: 45px
+  margin-top: 50px
+  margin-right: 15px
+  transform: rotate(0deg)
+  transition: .5s ease-in-out
+  cursor: pointer
+  @include tablet
+    display: flex
+    margin-right: 25px
+  @include phonelarge
+    margin-top: 30px
+
+#hamburger span
+  display: flex
+  position: absolute
+  height: 5px
+  width: 100%
+  border-radius: 9px
+  opacity: 1
+  left: 0
+  transform: rotate(0deg)
+  transition: .25s ease-in-out
+
+.span1
+  background: $purple1
+
+.span2
+  background: $purple2
+
+.span3
+  background: $purple3
+
+.colored
+  background: linear-gradient(right, $purple1, $purple3)
+
+
+#hamburger span:nth-child(1)
+  top: 0px
+
+#hamburger span:nth-child(2)
+  top: 12px
+
+#hamburger span:nth-child(3)
+  top: 24px
+
+#hamburger.open span:nth-child(1)
+  top: 12px
+  transform: rotate(135deg)
+
+#hamburger.open span:nth-child(2)
+  opacity: 0
+  left: -40px
+
+#hamburger.open span:nth-child(3)
+  top: 12px
+  transform: rotate(-135deg)

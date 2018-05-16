@@ -1,0 +1,56 @@
+$grey: #5B606F
+$lightgrey: #9EA6B7
+$purple: #6868F6
+
+$purple1: rgb(126,91,242)
+$purple2: rgb(160,110,227)
+$purple3: rgb(206,126,217)
+
+$red: #ED6C5C
+$yellow: #F2C458
+$green: #62CC50
+
+html
+  overflow-x: hidden
+body
+  font-family: 'Roboto', Helvetica, 'Helvetica Neue', sans-serif
+  overflow-x: hidden
+
+.content
+  margin: 0 auto
+  width: 100%
+  height: 100%
+  max-width: 1090px
+  padding: 0px 15px
+  //@include desktop
+    padding: 0px 20px
+    add the difference to max width if you need
+    to add padding
+
+.section__header
+  font-weight: 400
+  font-size: 32px
+  color: $grey
+  letter-spacing: 1px
+  margin-top: 40px
+  margin-bottom: 10px
+  @include tablet
+    font-size: 26px
+  @include phonelarge
+    margin-top: 16px
+
+.overlay
+  z-index: 10
+  display: flex
+  position: absolute
+  width: 100%
+  height: 100%
+  background-color: transparent
+  transition: background-color 0.5s ease-in-out
+  pointer-events: none
+
+
+.overlay__highlight
+  display: flex
+  transition: background-color 0.5s ease-in-out
+  background-color: rgba(0,0,0,0.15)

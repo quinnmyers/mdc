@@ -1,0 +1,312 @@
+.footer
+  .footer__contact__container
+    align-self: center
+    width: 1090px
+    margin-bottom: -600px
+    padding-top: 10px
+    padding-left: 15px
+    padding-right: 15px
+    position: relative
+    z-index: 6
+    //transition: all .5s ease-in-out
+    &__browser
+      display: flex
+      flex-direction: column
+      width: 100%
+      height: 550px
+      box-shadow: 0px 0px 15px #676767
+      border-top-left-radius: 5px
+      border-top-right-radius: 5px
+      background: white
+      @include phonesmall
+        border-top-left-radius: 3px
+        border-top-right-radius: 3px
+
+      &__navbar
+        display: flex
+        width: 100%
+        height: 45px
+        background: #EFF2F6
+        border-top-left-radius: 5px
+        border-top-right-radius: 5px
+        justify-content: space-around
+        align-items: center
+        @include tablet
+          height: 42px
+        @include phonelarge
+        @include phonesmall
+          height: 38px
+          border-top-left-radius: 3px
+          border-top-right-radius: 3px
+
+        &__dots
+          display: flex
+          justify-content: space-around
+          align-items: center
+          height: 100%
+          width: 90px
+          border-top-left-radius: 5px
+          @include tablet
+            width: 80px
+          @include phonesmall
+            width: 65px
+
+          &__dot1, &__dot2, &__dot3
+            height: 15px
+            width: 15px
+            border-radius: 100%
+            @include tablet
+              height: 14px
+              width: 14px
+            @include phonesmall
+              height: 12px
+              width: 12px
+
+          &__dot1
+            background: $red
+          &__dot2
+            background: $yellow
+          &__dot3
+            background: $green
+
+        &__search
+          height: 65%
+          border-radius: 3px
+          background: #F8F9FD
+          width: calc(100% - 135px)
+          @include tablet
+            width: calc(100% - 115px)
+          @include phonesmall
+            width: calc(100% - 100px)
+
+      .contact__form
+        display: flex
+        flex-direction: column
+        justify-content: space-around
+        margin: auto
+        width: 95%
+        height: 80%
+        //background: lightskyblue
+        .form__label
+          color: $grey
+          letter-spacing: 1px
+          font-weight: 400
+          font-size: 15px
+          margin-bottom: 10px
+
+
+        &__name, &__email, &__phone
+          input
+            width: 60%
+            height: 30px
+            border-radius: 3px
+            background: #EFF2F6
+            box-shadow: none
+            outline: none
+            -webkit-appearance: none !important
+            border: none
+            font-size: 14px
+            color: $grey
+
+
+        &__message
+          textarea
+            width: 100%
+            resize: none
+            background: #EFF2F6
+            -webkit-appearance: none !important
+            border: none
+            border-radius: 3px
+            height: 180px
+            font-size: 14px
+            color: $grey
+
+
+        &__sendbutton
+          margin-top: 15px
+          width: 150px
+          border-radius: 20px
+          border: none
+          align-self: flex-end
+          height: 40px
+          background: #2FCC71
+          font-weight: 300
+          transition: all 0.4s ease-in-out
+          box-shadow: 0px 0px 5px grey
+          &:hover
+            transform: scale(1.025)
+            box-shadow: 0px 0px 20px grey
+          p
+            font-size: 14px
+            font-weight: 400
+            letter-spacing: 1px
+            color: white
+
+
+
+
+.footer__contact__container__large
+  //margin-bottom: -140px !important
+  z-index: 15 !important
+  animation: browser-color .5s forwards
+  animation-iteration-count: 1
+  transition: z-index 1.2s ease-in-out
+
+
+
+
+@keyframes browser-color
+  0%
+    margin-bottom: -600px
+  90%
+    margin-bottom: -50px
+  100%
+    margin-bottom: -140px
+
+
+//.contact
+  display: flex
+  background: khaki
+  margin-bottom: -470px
+  position: relative
+  z-index: 75
+  .section__header
+    margin-bottom: 40px
+
+  &__browser
+    display: flex
+    flex-direction: column
+    width: 100%
+    height: 650px
+    box-shadow: 0px 0px 15px #676767
+    border-top-left-radius: 5px
+    border-top-right-radius: 5px
+    background: white
+    @include phonesmall
+      border-top-left-radius: 3px
+      border-top-right-radius: 3px
+
+    &__navbar
+      display: flex
+      width: 100%
+      height: 55px
+      background: #EFF2F6
+      border-top-left-radius: 5px
+      border-top-right-radius: 5px
+      justify-content: space-around
+      align-items: center
+      @include tablet
+        height: 42px
+      @include phonelarge
+      @include phonesmall
+        height: 38px
+        border-top-left-radius: 3px
+        border-top-right-radius: 3px
+
+
+
+      &__dots
+        display: flex
+        justify-content: space-around
+        align-items: center
+        height: 100%
+        width: 100px
+        border-top-left-radius: 5px
+        @include tablet
+          width: 80px
+        @include phonesmall
+          width: 65px
+
+        &__dot1, &__dot2, &__dot3
+          height: 17px
+          width: 17px
+          border-radius: 100%
+          @include tablet
+            height: 14px
+            width: 14px
+          @include phonesmall
+            height: 12px
+            width: 12px
+
+        &__dot1
+          background: $red
+        &__dot2
+          background: $yellow
+        &__dot3
+          background: $green
+
+      &__search
+        height: 65%
+        border-radius: 3px
+        background: #F8F9FD
+        width: calc(100% - 135px)
+        @include tablet
+          width: calc(100% - 115px)
+        @include phonesmall
+          width: calc(100% - 100px)
+
+    .contact__form
+      display: flex
+      flex-direction: column
+      justify-content: space-around
+      margin: auto
+      width: 95%
+      height: 80%
+
+
+
+      .form__label
+        color: $grey
+        letter-spacing: 1px
+        font-weight: 400
+        font-size: 16px
+        margin-bottom: 5px
+
+
+      &__name, &__email, &__phone
+        input
+          width: 60%
+          height: 35px
+          border-radius: 3px
+          background: #EFF2F6
+          box-shadow: none
+          outline: none
+          -webkit-appearance: none !important
+          border: none
+          font-size: 14px
+          color: $grey
+
+
+      &__message
+        textarea
+          width: 100%
+          resize: none
+          background: #EFF2F6
+          -webkit-appearance: none !important
+          border: none
+          border-radius: 3px
+          height: 180px
+          font-size: 14px
+          color: $grey
+
+
+      &__sendbutton
+        margin-top: 15px
+        width: 150px
+        border-radius: 20px
+        border: none
+        align-self: flex-end
+        height: 40px
+        background: #2FCC71
+        font-weight: 300
+        transition: all 0.4s ease-in-out
+        box-shadow: 0px 0px 5px grey
+        -webkit-font-smoothing: antialiased
+        &:hover
+          transform: scale(1.025)
+          box-shadow: 0px 0px 20px grey
+        p
+          font-size: 14px
+          font-weight: 400
+          letter-spacing: 1px
+          color: white

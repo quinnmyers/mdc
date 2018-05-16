@@ -1,0 +1,26 @@
+.footer__contact__container__browser
+  .footer__contact__container__browser__navbar
+    .footer__contact__container__browser__navbar__dots
+      .footer__contact__container__browser__navbar__dots__dot1
+      .footer__contact__container__browser__navbar__dots__dot2
+      .footer__contact__container__browser__navbar__dots__dot3
+    .footer__contact__container__browser__navbar__search  
+  form.contact__form(action='https://formspree.io/your@email.com', method='POST')
+    .contact__form__name(type='text', name='name' label="test")
+      h5.form__label Name
+      input(type='text', name='name')
+    |     
+    .contact__form__email
+      h5.form__label Email
+      input(type='email', name='_replyto')
+    |  
+    .contact__form__phone
+      h5.form__label Phone
+      input(type='phone', name='phone')
+    |    
+    .contact__form__message
+      h5.form__label Message
+      textarea(type='email', name='_replyto')
+    |  
+    button.contact__form__sendbutton(type='submit', value='Send')
+      p Send

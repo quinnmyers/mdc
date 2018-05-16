@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="519px" height="367px" viewBox="0 0 519 367" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>browser-window@2x</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="hero-section" transform="translate(-773.000000, -333.000000)">
+            <g id="browser-window" transform="translate(773.000000, 333.000000)">
+                <path d="M0,4.99645396 C0,2.23698863 2.22908214,0 4.99095357,0 L514.009046,0 C516.765474,0 519,2.24846744 519,4.99645396 L519,367 L0,367 L0,4.99645396 Z" id="Rectangle-9" fill="#FFFFFF"></path>
+                <path d="M0,5.00689345 C0,2.24166255 2.22908214,0 4.99095357,0 L514.009046,0 C516.765474,0 519,2.23345454 519,5.00689345 L519,41 L0,41 L0,5.00689345 Z" id="Rectangle-7" fill="#EFF2F6"></path>
+                <rect id="Rectangle-12" fill="#F8F9FD" x="95" y="9" width="414" height="24"></rect>
+                <circle id="Oval" fill="#ED6C5C" cx="23.5" cy="21.5" r="6.5"></circle>
+                <circle id="Oval" fill="#F2C458" cx="48" cy="21.5" r="6.5"></circle>
+                <circle id="Oval" fill="#62CC50" cx="72.5" cy="21.5" r="6.5"></circle>
+                <g id="Content" transform="translate(92.202708, 58.000000)" fill="#D9DFE8">
+                    <rect id="Logo" x="0.699579832" y="0.811888782" width="73.120084" height="35.6391179" rx="5"></rect>
+                    <rect id="Nav_1" x="137.565378" y="10.190604" width="43.1221008" height="18.7574305" rx="5"></rect>
+                    <rect id="Nav_2" x="186.312101" y="10.190604" width="43.1221008" height="18.7574305" rx="5"></rect>
+                    <rect id="Nav_3" x="235.058824" y="10.190604" width="43.1221008" height="18.7574305" rx="5"></rect>
+                    <rect id="Nav_4" x="285.68042" y="10.190604" width="43.1221008" height="18.7574305" rx="5"></rect>
+                    <rect id="Slider" x="0.699579832" y="51.4569511" width="331.852689" height="135.0535" rx="5"></rect>
+                    <rect id="Item_1" x="0.699579832" y="201.516395" width="98.973609" height="90.0356663" rx="5"></rect>
+                    <rect id="Item_2" x="117.13912" y="201.516395" width="98.973609" height="90.0356663" rx="5"></rect>
+                    <rect id="Item_3" x="233.57866" y="201.516395" width="98.973609" height="90.0356663" rx="5"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

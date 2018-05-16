@@ -1,0 +1,138 @@
+//can use "transition: Xsec" in order to slow the transition
+
+.services
+  height: auto
+  background: lightskyblue
+  .content
+    .services__container
+      display: flex
+      flex-direction: column
+      height: auto
+      .section__header
+      &__item
+        display: flex
+        justify-content: space-between
+        align-items: center
+        background: khaki
+        margin: 40px 0px
+        height: 350px
+        @include phonelarge
+          flex-direction: column
+          height: auto
+          margin: 20px 0px
+        @include phone
+          margin: 20px 0px
+        //@include tablet
+          flex-direction: column
+          height: auto
+        &__photo1, &__photo2, &__photo3
+          max-width: 50%
+          width: 50%
+          background: pink
+          height: 300px
+          transition: all 1s ease-in-out
+          background:
+            size: contain
+            repeat: no-repeat
+          //@include tablet
+            max-width: 60%
+            width: 60%
+          @include phonelarge
+            max-width: 80%
+            width: 100%
+            height: 250px
+        &__photo1
+          margin-right: -500px
+          background:
+            image: url('../images/webdev-image.svg')
+            position: right
+          @include phonelarge
+            margin-right: -700px
+        &__photo2
+          margin-left: -500px
+          background:
+            image: url('../images/designservices-image.svg')
+            position: left
+          @include phonelarge
+            margin-left: -700px
+          @include phonelarge
+            order: 2
+          //@include tablet
+            order: 2
+
+        &__photo3
+          margin-right: -500px
+          background:
+            image: url('../images/marketing-image.svg')
+            position: right
+          @include phonelarge
+            margin-right: -700px
+        &__desc1, &__desc2, &__desc3
+          display: flex
+          flex-direction: column
+          justify-content: flex-start
+          align-items: center
+          max-width: 40%
+          height: auto
+          background: lightgrey
+          line-height: 25px
+          color: $lightgrey
+          transition: all 1s ease-in-out
+          p
+            font-size: 16px
+            @include tablet
+              line-height: 20px
+              font-size: 13px
+            @include phone
+              font-size: 11px
+              line-height: 18px
+          @include tablet
+            max-width: 50%
+            margin: 0px 15px
+          //@include phonelarge
+            max-width: 100%
+          @include phonelarge
+            max-width: 100%
+            margin: 0 auto
+        &__desc1
+            margin-left: -500px
+            @include phonelarge
+              margin-left: -700px
+        &__desc2
+          text-align: right
+          margin-right: -500px
+          @include phonelarge
+            order: 1
+            text-align: left
+            margin-right: -700px
+        &__desc3
+          margin-left: -500px
+          @include phonelarge
+            margin-left: -700px
+        &__desc1, &__desc2, &__desc3
+          .services__title
+            width: 100%
+            text-align: left
+            font-size: 24px
+            font-weight: 400
+            color: $grey
+            margin-bottom: 15px
+            letter-spacing: 1px
+            @include tablet
+              font-size: 20px
+            @include phone
+              font-size: 18px
+          .right
+            text-align: right
+            @include phonelarge
+              text-align: left
+
+
+.start-odd
+  margin-left: 0 !important
+
+.start-even
+  margin-right: 0 !important
+
+
+//image: url('../images/mdc-logo.png')

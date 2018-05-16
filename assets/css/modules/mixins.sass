@@ -1,0 +1,49 @@
+$phone-small: 330px
+$phone-max-width: 440px
+$phone-large: 560px
+$tablet-width: 768px
+$desktop-width: 992px
+$edgesnap-width: 1280px
+
+
+=ultra
+  @media (min-width: unquote("#{$desktop-width} + 1"))
+    @content
+
+=edgesnap
+  @media (max-width: #{$edgesnap-width})
+    @content
+
+=desktop
+  @media (max-width: #{$desktop-width})
+    @content
+
+=tablet
+  @media (max-width: #{$tablet-width})
+    @content
+
+=phonelarge
+  @media (max-width: #{$phone-large})
+    @content
+
+=phone
+  @media (max-width: unquote("#{$phone-max-width} - 1"))
+    @content
+
+=phonesmall
+  @media (max-width: #{$phone-small})
+    @content
+
+=phoneHorizontal
+  @media (orientation: landscape) and (max-width: unquote("#{$phone-max-width} - 1"))
+    @content
+
+=clearfix
+  &:after
+    content: ""
+    display: table
+    clear: both
+
++ultra
+  html
+    font-weight: 300
