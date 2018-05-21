@@ -6,7 +6,9 @@
 
 body,
 html
-  -webkit-transform: translate3d(0, 0, 0)
+  //I found that this -translate3d(0,0,0) is breaking children elements
+  //with position:fixed
+  //-webkit-transform: translate3d(0, 0, 0)
   text-rendering: optimizeLegibility
   height: 100%
   width: 100%

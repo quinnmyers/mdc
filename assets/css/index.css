@@ -10,7 +10,6 @@
 
 body,
 html {
-  -webkit-transform: translate3d(0, 0, 0);
   text-rendering: optimizeLegibility;
   height: 100%;
   width: 100%;
@@ -51,12 +50,8 @@ a {
   text-decoration: none;
   color: inherit; }
 
-html {
-  overflow-x: hidden; }
-
 body {
-  font-family: 'Roboto', Helvetica, 'Helvetica Neue', sans-serif;
-  overflow-x: hidden; }
+  font-family: 'Roboto', Helvetica, 'Helvetica Neue', sans-serif; }
 
 .content {
   margin: 0 auto;
@@ -104,18 +99,19 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   height: 550px;
   width: 100%;
   background: -webkit-gradient(linear, left top, right bottom, from(#FFFFFF), to(#F1F4F9));
   background: linear-gradient(to bottom right, #FFFFFF, #F1F4F9);
-  overflow-y: hidden; }
+  overflow-y: hidden;
+  position: relative; }
   @media (max-width: 768px) {
     .header {
       height: 500px; } }
@@ -130,67 +126,78 @@ body {
               flex-direction: column;
       height: 100vh;
       background-color: lightgrey; } }
-  .header .content .header__top {
+  .header .header__top {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    height: 120px; }
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 130px;
+    -webkit-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out; }
     @media (max-width: 560px) {
-      .header .content .header__top {
+      .header .header__top {
         height: 100px; } }
     @media (max-width: 768px) {
-      .header .content .header__top {
+      .header .header__top {
         height: 100px;
         margin-bottom: 25px; } }
-    .header .content .header__top .header__logo {
-      height: 100%;
-      width: 200px;
-      background-image: url("../images/mdc-logo.png");
-      background-image: url("../images/mdc-logo.svg");
-      background-position: 0% 100%;
-      background-repeat: no-repeat;
-      background-size: contain; }
-      @media (max-width: 768px) {
-        .header .content .header__top .header__logo {
-          height: 100px;
-          width: 225px;
-          background-size: contain;
-          margin-left: 20px;
-          margin-top: 20px; } }
-      @media (max-width: 560px) {
-        .header .content .header__top .header__logo {
-          height: 80px;
-          margin-top: 15px;
-          margin-left: 10px; } }
-    .header .content .header__top .header__nav {
+    .header .header__top__content {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
-      -webkit-box-align: end;
-          -ms-flex-align: end;
-              align-items: flex-end;
-      list-style: none;
-      height: 100%;
-      line-height: 20px; }
-      @media (max-width: 768px) {
-        .header .content .header__top .header__nav {
-          display: none; } }
-      .header .content .header__top .header__nav .header__nav__item {
-        display: inline-block;
-        margin-bottom: 4px;
-        padding: 0px 35px;
-        font-size: 15px;
-        color: #5B606F;
-        -webkit-transition: all 0.5s ease;
-        transition: all 0.5s ease;
-        font-weight: 300; }
-        .header .content .header__top .header__nav .header__nav__item:nth-child(4) {
-          padding-right: 0px; }
-        .header .content .header__top .header__nav .header__nav__item:hover {
-          color: #6868F6; }
+      width: 1060px;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between; }
+      .header .header__top__content .header__logo {
+        height: 100%;
+        width: 200px;
+        position: static;
+        background-image: url("../images/mdc-logo.png");
+        background-image: url("../images/mdc-logo.svg");
+        background-position: 0% 100%;
+        background-repeat: no-repeat;
+        background-size: contain; }
+        @media (max-width: 768px) {
+          .header .header__top__content .header__logo {
+            height: 100px;
+            width: 225px;
+            background-size: contain;
+            margin-left: 20px;
+            margin-top: 20px; } }
+        @media (max-width: 560px) {
+          .header .header__top__content .header__logo {
+            height: 80px;
+            margin-top: 15px;
+            margin-left: 10px; } }
+      .header .header__top__content .header__nav {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: end;
+            -ms-flex-align: end;
+                align-items: flex-end;
+        list-style: none;
+        height: 100%;
+        line-height: 20px; }
+        @media (max-width: 768px) {
+          .header .header__top__content .header__nav {
+            display: none; } }
+        .header .header__top__content .header__nav .header__nav__item {
+          display: inline-block;
+          margin-bottom: 4px;
+          padding: 0px 35px;
+          font-size: 15px;
+          color: #5B606F;
+          -webkit-transition: all 0.5s ease-in-out;
+          transition: all 0.5s ease-in-out;
+          font-weight: 300; }
+          .header .header__top__content .header__nav .header__nav__item:nth-child(4) {
+            padding-right: 0px; }
+          .header .header__top__content .header__nav .header__nav__item:hover {
+            color: #6868F6; }
   .header .content .header__bot {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -200,6 +207,9 @@ body {
         -ms-flex-direction: row;
             flex-direction: row;
     height: 430px;
+    position: absolute;
+    bottom: 0;
+    width: 1060px;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between; }
@@ -352,6 +362,86 @@ body {
     .header .content .header__bot .browser__show {
       margin-bottom: 0px;
       position: relative; }
+
+.top__checker {
+  height: 1px;
+  width: 100%;
+  background: none;
+  margin-bottom: -1px; }
+
+.container {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: red;
+  height: 100px;
+  overflow-y: scroll; }
+  .container .nav {
+    width: 1000px;
+    height: 100%;
+    background: pink;
+    margin: 0 auto; }
+
+.header__fixed {
+  position: fixed;
+  top: 0;
+  margin: 0px auto;
+  width: 100%;
+  z-index: 999;
+  -webkit-animation: header-fixed .4s ease-in-out;
+          animation: header-fixed .4s ease-in-out;
+  background: #FFFFFF;
+  -webkit-box-shadow: -2px 0px 15px 5px #D8DCE2;
+          box-shadow: -2px 0px 15px 5px #D8DCE2; }
+
+.header__margin {
+  background-position: center !important; }
+
+.header__nav__sticky {
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+  margin-top: 35px; }
+
+@-webkit-keyframes header-fixed {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1); }
+  20% {
+    -webkit-transform: scale(1.01);
+            transform: scale(1.01); }
+  40% {
+    -webkit-transform: scale(1.02);
+            transform: scale(1.02); }
+  60% {
+    -webkit-transform: scale(1.03);
+            transform: scale(1.03); }
+  80% {
+    -webkit-transform: scale(1.015);
+            transform: scale(1.015); }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1); } }
+
+@keyframes header-fixed {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1); }
+  20% {
+    -webkit-transform: scale(1.01);
+            transform: scale(1.01); }
+  40% {
+    -webkit-transform: scale(1.02);
+            transform: scale(1.02); }
+  60% {
+    -webkit-transform: scale(1.03);
+            transform: scale(1.03); }
+  80% {
+    -webkit-transform: scale(1.015);
+            transform: scale(1.015); }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1); } }
 
 /*/**
   margin: 0
