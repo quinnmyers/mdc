@@ -167,31 +167,7 @@ $(document).ready(function() {
 
 
 
-
-var footer_h = $('.footer').height();
-var page_height = $(window).height();
-var difference = (page_height - footer_h);
-var footer_inner = $('.footer').innerHeight();
-var footer_visible = $('.footer').scrollHeight;
-var poop = $('.footer').offsetTop;
-
-
-
-var page_height = $(document).height();
-var window_visible = $(window).scrollTop();
-
-
-document.getElementsByClassName('services').onscroll = function() {
-        console.log("scrolling");
-      };
-
-
-
-$(document).ready(function(){
-  var poop = $('.footer').offsetTop;
+$(window).scroll(function (event) {
+    var scroll = $(window).scrollTop();
+    console.log(scroll);
 });
-
-
-var y = $(window).scrollY;
-
-var page_height = $(window).height();

@@ -112,8 +112,7 @@ body {
   background: -webkit-gradient(linear, left top, right bottom, from(#FFFFFF), to(#F1F4F9));
   background: linear-gradient(to bottom right, #FFFFFF, #F1F4F9);
   overflow-y: hidden;
-  position: relative;
-  overflow-x: hidden; }
+  position: relative; }
   @media (max-width: 768px) {
     .header {
       height: 500px; } }
