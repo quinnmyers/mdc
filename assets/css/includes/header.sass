@@ -7,7 +7,7 @@
   background: linear-gradient(to bottom right, #FFFFFF, #F1F4F9)
   overflow-y: hidden
   position: relative
-  //z-index: -999
+  overflow-x: hidden
   @include tablet
     height: 500px
   @include phonelarge
@@ -18,8 +18,12 @@
   .header__top
     display: flex
     justify-content: center
+    width: 100%
     height: 130px
-    transition: all 1s ease-in-out
+    transition: all .5s ease-in-out
+    position: fixed
+    top: 0
+    z-index: 999
     @include phonelarge
       height: 100px
     @include tablet
@@ -32,7 +36,8 @@
       .header__logo
         height: 100%
         width: 200px
-        position: static
+        transition: all .5s ease-in-out
+        //position: static
         background:
           image: url('../images/mdc-logo.png')
           image: url('../images/mdc-logo.svg')
@@ -50,10 +55,12 @@
           margin-top: 15px
           margin-left: 10px
       .header__nav
+        transition: all .5s ease-in-out
         display: flex
         align-items: flex-end
+        justify-content: center
         list-style: none
-        height: 100%
+        height: auto
         line-height: 20px
         @include tablet
           display: none
@@ -217,6 +224,9 @@
     background: pink
     margin: 0 auto
 
+.test-red
+  //background: red !important
+
 .header__fixed
   position: fixed
   top: 0
@@ -232,9 +242,15 @@
   background-position: center !important
 
 .header__nav__sticky
-  align-items: center !important
-  margin-top: 35px
+  margin-bottom: 20px !important
 
+.header__top__fixed
+  background: #FFFFFF
+  box-shadow: -2px 0px 15px 5px #D8DCE2
+
+.header__top__content__fixed
+  //align-items: center !important
+  background-position: center !important
 
 
 @keyframes header-fixed
