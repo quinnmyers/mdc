@@ -104,9 +104,6 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
   height: 550px;
   width: 100%;
   background: -webkit-gradient(linear, left top, right bottom, from(#FFFFFF), to(#F1F4F9));
@@ -135,12 +132,11 @@ body {
         -ms-flex-pack: center;
             justify-content: center;
     width: 100%;
-    height: 130px;
+    min-height: 120px;
     -webkit-transition: all .5s ease-in-out;
     transition: all .5s ease-in-out;
-    position: fixed;
     top: 0;
-    z-index: 999; }
+    background: transparesnt; }
     @media (max-width: 560px) {
       .header .header__top {
         height: 100px; } }
@@ -392,72 +388,6 @@ body {
     height: 100%;
     background: pink;
     margin: 0 auto; }
-
-.header__fixed {
-  position: fixed;
-  top: 0;
-  margin: 0px auto;
-  width: 100%;
-  z-index: 999;
-  -webkit-animation: header-fixed .4s ease-in-out;
-          animation: header-fixed .4s ease-in-out;
-  background: #FFFFFF;
-  -webkit-box-shadow: -2px 0px 15px 5px #D8DCE2;
-          box-shadow: -2px 0px 15px 5px #D8DCE2; }
-
-.header__margin {
-  background-position: center !important; }
-
-.header__nav__sticky {
-  margin-bottom: 20px !important; }
-
-.header__top__fixed {
-  background: #FFFFFF;
-  -webkit-box-shadow: -2px 0px 15px 5px #D8DCE2;
-          box-shadow: -2px 0px 15px 5px #D8DCE2; }
-
-.header__top__content__fixed {
-  background-position: center !important; }
-
-@-webkit-keyframes header-fixed {
-  0% {
-    -webkit-transform: scale(1);
-            transform: scale(1); }
-  20% {
-    -webkit-transform: scale(1.01);
-            transform: scale(1.01); }
-  40% {
-    -webkit-transform: scale(1.02);
-            transform: scale(1.02); }
-  60% {
-    -webkit-transform: scale(1.03);
-            transform: scale(1.03); }
-  80% {
-    -webkit-transform: scale(1.015);
-            transform: scale(1.015); }
-  100% {
-    -webkit-transform: scale(1);
-            transform: scale(1); } }
-
-@keyframes header-fixed {
-  0% {
-    -webkit-transform: scale(1);
-            transform: scale(1); }
-  20% {
-    -webkit-transform: scale(1.01);
-            transform: scale(1.01); }
-  40% {
-    -webkit-transform: scale(1.02);
-            transform: scale(1.02); }
-  60% {
-    -webkit-transform: scale(1.03);
-            transform: scale(1.03); }
-  80% {
-    -webkit-transform: scale(1.015);
-            transform: scale(1.015); }
-  100% {
-    -webkit-transform: scale(1);
-            transform: scale(1); } }
 
 /*/**
   margin: 0
