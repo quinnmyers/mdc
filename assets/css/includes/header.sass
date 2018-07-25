@@ -8,14 +8,16 @@
 .header
   display: flex
   flex-direction: column
-  //justify-content: flex-end
+  justify-content: space-between
   height: 550px
   width: 100%
   background: linear-gradient(to bottom right, #FFFFFF, #F1F4F9)
   overflow-y: hidden
   position: relative
   @include tablet
-    height: 500px
+    height: auto
+  // @include tablet
+  //   //height: auto
   @include phonelarge
     display: flex
     flex-direction: column
@@ -27,19 +29,25 @@
     width: 100%
     min-height: 120px
     transition: all .5s ease-in-out
-    top: 0
-    //z-index: 999
+    //top: 0
     background: transparesnt
-    @include phonelarge
-      height: 100px
-    @include tablet
-      height: 100px
-      margin-bottom: 25px
+    max-width: 100%
+    @include edgesnap
+    @include tablet 
+      min-height: 100px
+    // @include phonelarge
+    //   height: 100px
+    // @include tablet
+    //   height: 100px
+    //   margin-bottom: 25px
     &__content
       display: flex
       width: 1060px
       justify-content: space-between
+      @include tablet
+        align-items: center
       .header__logo
+        display: flex
         height: 100%
         width: 200px
         transition: all .5s ease-in-out
@@ -50,15 +58,18 @@
           repeat: no-repeat
           size: contain
         @include tablet
-          height: 100px
-          width: 225px
-          background-size: contain
-          margin-left: 20px
-          margin-top: 20px
+          background-position: center
+          margin-left: 15px
+          height: 90px
+        // @include tablet
+        //   height: 100px
+        //   width: 225px
+        //   background-size: contain
+        //   margin-left: 20px
+        //   margin-top: 20px
         @include phonelarge
-          height: 80px
-          margin-top: 15px
-          margin-left: 10px
+          background-position: 0% 50%
+          height: 70px
       .header__nav
         transition: all .5s ease-in-out
         display: flex
@@ -86,27 +97,31 @@
       display: flex
       flex-direction: row
       height: 430px
-      position: absolute
+      //position: absolute
       bottom: 0
       width: 1060px
-      //was 480
       justify-content: space-between
+      max-width: 100%
+      @include tablet 
+        width: 100%
+        height: 350px
       @include phonelarge
         flex-direction: column
         height: calc(100vh - 100px)
+      @include phone
+        height: calc(100vh - 80px)
       &__copy
         display: flex
         flex-direction: column
         justify-content: flex-start
         max-width: 50%
-        height: 75%
+        height: auto
         align-self: center
         flex: 1
-        //background: khaki
-        @include tablet
-          max-width: 40%
-          align-self: flex-start
-          height: 100%
+        // @include tablet
+        //   max-width: 40%
+        //   align-self: flex-start
+        //   height: 100%
         @include phonelarge
           max-width: 100%
           max-height: 50%
@@ -114,20 +129,18 @@
         .jumbotron__cta
           font-weight: 400
           font-size: 28px
-          //was 36
           color: $grey
           letter-spacing: 1px
           margin-top: 60px
           margin-bottom: 10px
           @include tablet
-            font-size: 30px
+            font-size: 26px
           @include phonelarge
             margin-top: 20px
         .jumbotron__copy
           width: 80%
           font-weight: 300
           font-size: 17px
-          //was 20
           color: $lightgrey
           letter-spacing: 1px
           line-height: 30px
@@ -146,21 +159,20 @@
           font-size: 15px
           border-radius: 5px
           background: rgba(126,91,242, 0.8)
-          //box-shadow: 0px 0px 20px $lightgrey
-          transition: all 0.2s ease-in-out
+          transition: all 0.5s ease-in-out
           &:hover
-            transform: scale(1.025)
-            box-shadow: 0px 0px 40px grey
+            transform: translateY(-2px)
+            box-shadow: 0px 8px 31px -13px rgba(0,0,0,0.76);
           @include tablet
-            height: 40px
-            width: 120px
-            line-height: 40px
-            font-size: 14px
-          @include phonelarge
-            margin-bottom: 55px
-            height: 30px
+            height: 32px
             width: 100px
             line-height: 30px
+            font-size: 12px
+          // @include phonelarge
+          //   margin-bottom: 55px
+          //   height: 30px
+          //   width: 100px
+          //   line-height: 30px
 
       &__browser__container
         display: flex
@@ -169,8 +181,8 @@
         align-items: flex-end
         height: 100%
         width: 50%
-        @include tablet
-          width: 50%
+        // @include tablet
+        //   width: 50%
         @include phonelarge
           align-self: flex-start
           max-height: 50%
@@ -187,16 +199,16 @@
             size: contain
             position: bottom
             repeat: no-repeat
-          @include edgesnap
-            background:
-              color: white
-              position: top
-          @include tablet
-            width: 95%
-            background:
-              size: contain
-              color: white
-              position: top
+          // @include edgesnap
+          //   background:
+          //     color: white
+          //     position: top
+          // @include tablet
+          //   width: 95%
+          //   background:
+          //     size: contain
+          //     color: white
+          //     position: top
           @include phonelarge
             background-color: white
             background-position: top
