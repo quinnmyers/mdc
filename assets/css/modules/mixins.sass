@@ -4,6 +4,7 @@ $phone-large: 560px
 $tablet-width: 768px
 $desktop-width: 992px
 $edgesnap-width: 1280px
+$edgesnap-1090: 1090px
 
 
 =ultra
@@ -32,6 +33,10 @@ $edgesnap-width: 1280px
 
 =phonesmall
   @media (max-width: #{$phone-small})
+    @content
+
+=edgesnap1090
+  @media (max-width: #{$edgesnap-1090}) 
     @content
 
 =phoneHorizontal

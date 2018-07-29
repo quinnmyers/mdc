@@ -8,6 +8,9 @@
     padding-right: 15px
     position: relative
     z-index: 6
+    //background: khaki
+    @include edgesnap1090 
+        width: 100vw
     //transition: all .5s ease-in-out
     &__browser
       display: flex
@@ -18,9 +21,9 @@
       border-top-left-radius: 5px
       border-top-right-radius: 5px
       background: white
-      @include phonesmall
-        border-top-left-radius: 3px
-        border-top-right-radius: 3px
+      // @include phonesmall
+      //   border-top-left-radius: 3px
+      //   border-top-right-radius: 3px
 
       &__navbar
         display: flex
@@ -92,7 +95,9 @@
           letter-spacing: 1px
           font-weight: 400
           font-size: 15px
-          margin-bottom: 10px
+          // margin: 10px 0px
+          @include phone 
+            font-size: 13px
 
 
         &__name, &__email, &__phone
@@ -107,6 +112,12 @@
             border: none
             font-size: 14px
             color: $grey
+            transition: all 1s ease-in-out
+            margin-bottom: 4px
+            @include phonelarge
+              width: 100%
+            @include phone  
+              font-size: 12px
 
 
         &__message
@@ -141,6 +152,12 @@
             font-weight: 400
             letter-spacing: 1px
             color: white
+          @include phonelarge 
+            height: 30px
+            width: 100px
+            p
+              font-size: 12px
+
 
 
 
@@ -181,7 +198,6 @@
     box-shadow: 0px 0px 15px #676767
     border-top-left-radius: 5px
     border-top-right-radius: 5px
-    background: white
     @include phonesmall
       border-top-left-radius: 3px
       border-top-right-radius: 3px
@@ -252,6 +268,8 @@
       margin: auto
       width: 95%
       height: 80%
+      // @include edgesnap 
+      //   width: 50%
 
 
 

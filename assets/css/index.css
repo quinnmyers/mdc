@@ -743,6 +743,9 @@ body {
   padding-right: 15px;
   position: relative;
   z-index: 6; }
+  @media (max-width: 1090px) {
+    .footer .footer__contact__container {
+      width: 100vw; } }
   .footer .footer__contact__container__browser {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -758,10 +761,6 @@ body {
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     background: white; }
-    @media (max-width: 330px) {
-      .footer .footer__contact__container__browser {
-        border-top-left-radius: 3px;
-        border-top-right-radius: 3px; } }
     .footer .footer__contact__container__browser__navbar {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -848,8 +847,10 @@ body {
         color: #5B606F;
         letter-spacing: 1px;
         font-weight: 400;
-        font-size: 15px;
-        margin-bottom: 10px; }
+        font-size: 15px; }
+        @media (max-width: 440px - 1) {
+          .footer .footer__contact__container__browser .contact__form .form__label {
+            font-size: 13px; } }
       .footer .footer__contact__container__browser .contact__form__name input, .footer .footer__contact__container__browser .contact__form__email input, .footer .footer__contact__container__browser .contact__form__phone input {
         width: 60%;
         height: 30px;
@@ -861,7 +862,16 @@ body {
         -webkit-appearance: none !important;
         border: none;
         font-size: 14px;
-        color: #5B606F; }
+        color: #5B606F;
+        -webkit-transition: all 1s ease-in-out;
+        transition: all 1s ease-in-out;
+        margin-bottom: 4px; }
+        @media (max-width: 560px) {
+          .footer .footer__contact__container__browser .contact__form__name input, .footer .footer__contact__container__browser .contact__form__email input, .footer .footer__contact__container__browser .contact__form__phone input {
+            width: 100%; } }
+        @media (max-width: 440px - 1) {
+          .footer .footer__contact__container__browser .contact__form__name input, .footer .footer__contact__container__browser .contact__form__email input, .footer .footer__contact__container__browser .contact__form__phone input {
+            font-size: 12px; } }
       .footer .footer__contact__container__browser .contact__form__message textarea {
         width: 100%;
         resize: none;
@@ -896,6 +906,12 @@ body {
           font-weight: 400;
           letter-spacing: 1px;
           color: white; }
+        @media (max-width: 560px) {
+          .footer .footer__contact__container__browser .contact__form__sendbutton {
+            height: 30px;
+            width: 100px; }
+            .footer .footer__contact__container__browser .contact__form__sendbutton p {
+              font-size: 12px; } }
 
 .footer__contact__container__large {
   z-index: 15 !important;
@@ -984,6 +1000,12 @@ body {
       -webkit-box-align: center;
           -ms-flex-align: center;
               align-items: center; }
+      @media (max-width: 1090px) {
+        .footer .footer__bottom .footer__container {
+          width: 100vw;
+          padding: 0px 15px;
+          -webkit-transition: all 0s ease-in-out;
+          transition: all 0s ease-in-out; } }
       .footer .footer__bottom .footer__container__left, .footer .footer__bottom .footer__container__right {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -1003,6 +1025,9 @@ body {
         font-weight: 400; }
         .footer .footer__bottom .footer__container__left .footer__brand {
           margin-top: 30px; }
+          @media (max-width: 560px) {
+            .footer .footer__bottom .footer__container__left .footer__brand {
+              font-size: 30px; } }
       .footer .footer__bottom .footer__container__right {
         font-size: 14px;
         font-weight: 300;
@@ -1010,6 +1035,9 @@ body {
         text-align: left;
         background: red;
         margin-top: 30px; }
+        @media (max-width: 560px) {
+          .footer .footer__bottom .footer__container__right {
+            font-size: 12px; } }
         .footer .footer__bottom .footer__container__right .footer__nav__item {
           margin-bottom: 12px; }
         .footer .footer__bottom .footer__container__right li:nth-child(4) {
@@ -1018,7 +1046,7 @@ body {
       width: 150px;
       height: 50px;
       background: red;
-      color: red;
+      color: blue;
       position: absolute;
       bottom: 0px;
       left: 0px; }
@@ -1047,6 +1075,9 @@ body {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end; }
+
+.footer__content__large__right {
+  margin-top: 120px !important; }
 
 .footer__spacer__hide {
   height: 0px !important; }

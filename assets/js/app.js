@@ -155,7 +155,7 @@ $(document).ready(function() {
   $('.test-button').click(function() {
     $('.footer__container').toggleClass('footer__container__large');
     $('.footer__container__left').toggleClass('footer__content__large');
-    $('.footer__container__right').toggleClass('footer__content__large');
+    $('.footer__container__right').toggleClass('footer__content__large__right');
     $('.footer__spacer').toggleClass('footer__spacer__hide');
     $('.footer__contact__container').toggleClass('footer__contact__container__large');
     $('.footer__brand').toggleClass('.footer__content__margin__large');

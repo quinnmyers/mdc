@@ -33,6 +33,12 @@
       transition: all 2s ease-in-out
       //background: red
       align-items: center
+      @include edgesnap1090 
+        width: 100vw
+        padding: 0px 15px
+        transition: all 0s ease-in-out
+        //may need to fix this a bit in the future to only
+        //effect the elements sliding from right to left
 
       &__left, &__right
         display: flex
@@ -46,6 +52,8 @@
         font-weight: 400
         .footer__brand
           margin-top: 30px
+          @include phonelarge 
+            font-size: 30px
       &__right
         font-size: 14px
         font-weight: 300
@@ -53,6 +61,8 @@
         text-align: left
         background: red
         margin-top: 30px
+        @include phonelarge
+          font-size: 12px
         .footer__nav__item
           margin-bottom: 12px
         li:nth-child(1)
@@ -63,7 +73,7 @@
       width: 150px
       height: 50px
       background: red
-      color: red
+      color: blue
       position: absolute
       bottom: 0px
       left: 0px
@@ -86,6 +96,9 @@
 
 .footer__content__large
   justify-content: flex-end
+
+.footer__content__large__right
+  margin-top: 120px !important 
 
 .footer__spacer__hide
   height: 0px !important
