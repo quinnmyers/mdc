@@ -32,6 +32,14 @@ $('body').click(function () {
     }
 });
 
+
+//adding test button RECENT to test animation of header
+$(document).ready(function () {
+  $('.test-button').on('click', function () {
+    $('.header__top').toggleClass('top__fixed');
+  });
+});
+
 //closing mobile nav, restoring hamburger, and changing back overlay color on mobile
 //nav selection
 

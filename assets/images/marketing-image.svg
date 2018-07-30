@@ -1,112 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="443px" height="254px" viewBox="0 0 443 254" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
-    <title>Group 17</title>
+<svg width="501px" height="301px" viewBox="0 0 501 301" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 25</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Group-17" transform="translate(1.000000, 0.000000)">
-            <g id="Group-18">
-                <g id="arrows/arrow-4" transform="translate(164.030488, 181.867069) scale(-1, 1) rotate(180.000000) translate(-164.030488, -181.867069) translate(117.548780, 133.522659)">
-                    <g id="arrow-4" transform="translate(0.000000, 48.500000)">
-                        <path d="M178.85124,3 L70.9970921,3 C65.4758506,3 61,7.47619432 61,12.9995806 L61,122.492483 C61,128.015099 65.4759995,132.492063 70.9970921,132.492063 L178.85124,132.492063" id="Path-4" stroke="#1787E0"></path>
-                        <path d="M61.5185909,56.9593496 L0.995833406,56.9593496" id="Path-5" stroke="#1787E0"></path>
-                        <polygon id="Triangle-2-Copy-2" fill="#1787E0" points="176.85124 6 176.85124 0 179.85124 3"></polygon>
-                        <polygon id="Triangle-2-Copy-4" fill="#1787E0" points="176.85124 135.492063 176.85124 129.492063 179.85124 132.492063"></polygon>
-                    </g>
-                </g>
-                <g id="tiles/main-page" transform="translate(0.000000, 87.480363)">
-                    <g id="main-page" transform="translate(-1.000000, 0.000000)">
-                        <rect id="Rectangle-7" fill="#1787E0" x="0.991735537" y="0" width="120" height="87" rx="5"></rect>
-                        <path d="M0.991735537,14.9006623 L120.991736,14.9006623 L120.991736,82.0016244 C120.991736,84.762151 118.754389,87 115.988262,87 L5.9952087,87 C3.23186678,87 0.991735537,84.7631487 0.991735537,82.0016244 L0.991735537,14.9006623 Z" id="Rectangle-7" fill="#E4F3FF"></path>
-                        <ellipse id="Oval-4" fill="#55B4FF" cx="8.42975207" cy="7.45033113" rx="2.47933884" ry="2.48344371"></ellipse>
-                        <ellipse id="Oval-4" fill="#55B4FF" cx="15.3719008" cy="7.45033113" rx="2.47933884" ry="2.48344371"></ellipse>
-                        <ellipse id="Oval-4" fill="#55B4FF" cx="22.3140496" cy="7.45033113" rx="2.47933884" ry="2.48344371"></ellipse>
-                        <text id="Page-Title" font-family="Roboto-Bold, Roboto" font-size="10" font-weight="bold" letter-spacing="0.166666701" fill="#1787E0">
-                            <tspan x="33.7839535" y="51.3301107">Home Page</tspan>
-                        </text>
-                    </g>
-                </g>
-                <g id="tiles/main-page" transform="translate(236.634146, 126.616314)">
-                    <g id="main-page" transform="translate(-0.633333, 0.000000)">
-                        <rect id="Rectangle-7" fill="#1787E0" x="0.991735537" y="0" width="75.6333333" height="95" rx="5"></rect>
-                        <path d="M0.991735537,14.9006623 L76.6250689,14.9006623 L76.6250689,90.0045695 C76.6250689,92.7634696 74.3820334,95 71.633305,95 L5.98349943,95 C3.22662436,95 0.991735537,92.7529927 0.991735537,90.0045695 L0.991735537,14.9006623 Z" id="Rectangle-7" fill="#E4F3FF"></path>
-                        <ellipse id="Oval-4" fill="#55B4FF" cx="8.42975207" cy="7.45033113" rx="2.47933884" ry="2.48344371"></ellipse>
-                        <ellipse id="Oval-4" fill="#55B4FF" cx="15.3719008" cy="7.45033113" rx="2.47933884" ry="2.48344371"></ellipse>
-                        <ellipse id="Oval-4" fill="#55B4FF" cx="22.3140496" cy="7.45033113" rx="2.47933884" ry="2.48344371"></ellipse>
-                        <text id="Page-Title" font-family="Roboto-Bold, Roboto" font-size="10" font-weight="bold" letter-spacing="0.166666701" fill="#1787E0">
-                            <tspan x="5.52923154" y="55.7982308">News/Articles</tspan>
-                        </text>
-                    </g>
-                </g>
-                <g id="tiles/main-page" transform="translate(61.463415, 188.006042)">
-                    <g id="main-page" transform="translate(-0.441667, 0.000000)">
-                        <rect id="Rectangle-7" fill="#1787E0" x="0.991735537" y="0" width="52.4416667" height="66" rx="5"></rect>
-                        <path d="M0.991735537,14.9006623 L53.4334022,14.9006623 L53.4334022,61.0073412 C53.4334022,63.7647105 51.1968253,66 48.4288301,66 L5.99630767,66 C3.2323588,66 0.991735537,63.754957 0.991735537,61.0073412 L0.991735537,14.9006623 Z" id="Rectangle-7" fill="#E4F3FF"></path>
-                        <ellipse id="Oval-4" fill="#55B4FF" cx="8.42975207" cy="7.45033113" rx="2.47933884" ry="2.48344371"></ellipse>
-                        <ellipse id="Oval-4" fill="#55B4FF" cx="15.3719008" cy="7.45033113" rx="2.47933884" ry="2.48344371"></ellipse>
-                        <ellipse id="Oval-4" fill="#55B4FF" cx="22.3140496" cy="7.45033113" rx="2.47933884" ry="2.48344371"></ellipse>
-                        <text id="Page-Title" font-family="Roboto-Bold, Roboto" font-size="10" font-weight="bold" letter-spacing="0.166666701" fill="#1787E0">
-                            <tspan x="8.53251941" y="39.6012955">Contact</tspan>
-                        </text>
-                    </g>
-                </g>
-                <g id="tiles/main-page" transform="translate(303.475610, 0.000000)">
-                    <g id="main-page" transform="translate(-0.633333, 0.000000)">
-                        <rect id="Rectangle-7" fill="#1787E0" x="0.991735537" y="0" width="75.6333333" height="95" rx="5"></rect>
-                        <path d="M0.991735537,14.9006623 L76.6250689,14.9006623 L76.6250689,90.0045695 C76.6250689,92.7634696 74.3820334,95 71.633305,95 L5.98349943,95 C3.22662436,95 0.991735537,92.7529927 0.991735537,90.0045695 L0.991735537,14.9006623 Z" id="Rectangle-7" fill="#E4F3FF"></path>
-                        <ellipse id="Oval-4" fill="#55B4FF" cx="8.42975207" cy="7.45033113" rx="2.47933884" ry="2.48344371"></ellipse>
-                        <ellipse id="Oval-4" fill="#55B4FF" cx="15.3719008" cy="7.45033113" rx="2.47933884" ry="2.48344371"></ellipse>
-                        <ellipse id="Oval-4" fill="#55B4FF" cx="22.3140496" cy="7.45033113" rx="2.47933884" ry="2.48344371"></ellipse>
-                        <text id="Page-Title" font-family="Roboto-Bold, Roboto" font-size="10" font-weight="bold" letter-spacing="0.166666701" fill="#1787E0">
-                            <tspan x="27.795345" y="55.7982308">Blog</tspan>
-                        </text>
-                    </g>
-                </g>
-                <g id="tiles/inner-page" transform="translate(397.207317, 115.873112)">
-                    <g id="inner-page">
-                        <rect id="Rectangle-7" fill="#1787E0" x="0" y="0" width="44" height="57" rx="5"></rect>
-                        <path d="M0,7 L44,7 L44,51.9999681 C44,54.7614095 41.7575421,57 38.9954787,57 L5.00452127,57 C2.24060049,57 0,54.754469 0,51.9999681 L0,7 Z" id="Rectangle-7-Copy" fill="#E4F3FF"></path>
-                        <ellipse id="Oval-4" fill="#55B4FF" cx="4.21487603" cy="3.72516556" rx="1.23966942" ry="1.24172185"></ellipse>
-                        <ellipse id="Oval-4" fill="#55B4FF" cx="7.68595041" cy="3.72516556" rx="1.23966942" ry="1.24172185"></ellipse>
-                        <ellipse id="Oval-4" fill="#55B4FF" cx="11.1570248" cy="3.72516556" rx="1.23966942" ry="1.24172185"></ellipse>
-                        <text id="Subpage" font-family="Roboto-Bold, Roboto" font-size="10" font-weight="bold" letter-spacing="0.166666701" fill="#1787E0">
-                            <tspan x="1.62418608" y="35.9672131">Subpage</tspan>
-                        </text>
-                    </g>
-                </g>
-                <g id="tiles/inner-page" transform="translate(397.207317, 188.773414)">
-                    <g id="inner-page">
-                        <rect id="Rectangle-7" fill="#1787E0" x="0" y="0" width="44" height="57" rx="5"></rect>
-                        <path d="M0,7 L44,7 L44,51.9999681 C44,54.7614095 41.7575421,57 38.9954787,57 L5.00452127,57 C2.24060049,57 0,54.754469 0,51.9999681 L0,7 Z" id="Rectangle-7-Copy" fill="#E4F3FF"></path>
-                        <ellipse id="Oval-4" fill="#55B4FF" cx="4.21487603" cy="3.72516556" rx="1.23966942" ry="1.24172185"></ellipse>
-                        <ellipse id="Oval-4" fill="#55B4FF" cx="7.68595041" cy="3.72516556" rx="1.23966942" ry="1.24172185"></ellipse>
-                        <ellipse id="Oval-4" fill="#55B4FF" cx="11.1570248" cy="3.72516556" rx="1.23966942" ry="1.24172185"></ellipse>
-                        <text id="Subpage" font-family="Roboto-Bold, Roboto" font-size="10" font-weight="bold" letter-spacing="0.166666701" fill="#1787E0">
-                            <tspan x="1.62418608" y="35.9672131">Subpage</tspan>
-                        </text>
-                    </g>
-                </g>
-                <g id="arrows/arrow-7.1" transform="translate(341.000000, 104.000000)">
-                    <g id="arrow-7.1">
-                        <path d="M3,0 L3,34.001964 C3,39.5237268 7.46946834,44 13.0034007,44 L46.4840208,44" id="Path-6" stroke="#1787E0"></path>
-                        <circle id="Oval--Copy-3" stroke="#1787E0" fill="#FFFFFF" cx="3" cy="3" r="3"></circle>
-                        <polygon id="Triangle-2-Copy-4" fill="#1787E0" points="45 47 45 41 48 44"></polygon>
-                    </g>
-                </g>
-                <g id="arrows/arrow-7.1" transform="translate(8.451220, 180.332326)">
-                    <g id="arrow-7.1">
-                        <path d="M3,0 L3,34.001964 C3,39.5237268 7.46946834,44 13.0034007,44 L46.4840208,44" id="Path-6" stroke="#1787E0"></path>
-                        <circle id="Oval--Copy-3" stroke="#1787E0" fill="#FFFFFF" cx="3" cy="3" r="3"></circle>
-                        <polygon id="Triangle-2-Copy-4" fill="#1787E0" points="45 47 45 41 48 44"></polygon>
-                    </g>
-                </g>
-                <g id="arrows/arrow-7" transform="translate(344.000000, 137.000000)">
-                    <g id="arrow-7">
-                        <path d="M6.70343387e-18,0 L2.29863694e-15,73.9926877 C2.46983298e-15,79.5195737 4.46897105,84 9.99693989,84 L44.4840208,84" id="Path-6" stroke="#1787E0"></path>
-                        <polygon id="Triangle-2-Copy-4" fill="#1787E0" points="43 87 43 81 46 84"></polygon>
-                    </g>
-                </g>
+        <g id="Group-25" transform="translate(0.000000, 1.000000)" fill-rule="nonzero">
+            <rect id="Rectangle-25-Copy" fill="#6868F6" x="215.277778" y="0.996677741" width="12.8968254" height="299.003322"></rect>
+            <rect id="Rectangle-25-Copy-3" fill="#8B79EC" x="172.619048" y="150.498339" width="12.8968254" height="149.501661"></rect>
+            <rect id="Rectangle-25-Copy-4" fill="#A083E7" x="128.968254" y="200.332226" width="12.8968254" height="99.6677741"></rect>
+            <rect id="Rectangle-25-Copy-5" fill="#B78FE2" x="86.3095238" y="225.249169" width="12.8968254" height="74.7508306"></rect>
+            <rect id="Rectangle-25-Copy-6" fill="#CC98DC" x="42.6587302" y="240.199336" width="12.8968254" height="59.8006645"></rect>
+            <rect id="Rectangle-25-Copy-2" fill="#E2A3D7" x="0" y="250.166113" width="12.8968254" height="49.833887"></rect>
+            <path d="M260.912698,0 L260.912698,299.003322" id="Line-2" stroke="#5B606F" stroke-linecap="square"></path>
+            <path d="M260.912698,299.003322 L500,299.003322" id="Line-3" stroke="#5B606F" stroke-linecap="square"></path>
+            <g id="Group-23" transform="translate(275.793651, 28.903654)">
+                <path d="M176.09127,151.993355 L206.845238,3.48837209" id="Line-16" stroke="#D9DFE8" stroke-linecap="square"></path>
+                <path d="M5.45634921,250.664452 L46.1309524,241.694352" id="Line-12" stroke="#D9DFE8" stroke-linecap="square"></path>
+                <path d="M46.1309524,241.694352 L89.781746,227.740864" id="Line-13" stroke="#D9DFE8" stroke-linecap="square"></path>
+                <path d="M89.781746,227.740864 L131.448413,202.82392" id="Line-14" stroke="#D9DFE8" stroke-linecap="square"></path>
+                <path d="M132.440476,201.827243 L176.09127,152.990033" id="Line-15" stroke="#D9DFE8" stroke-linecap="square"></path>
+                <ellipse id="Oval-4" stroke="#5B606F" fill="#6868F6" cx="3.47222222" cy="251.66113" rx="3.47222222" ry="3.48837209"></ellipse>
+                <ellipse id="Oval-4" stroke="#5B606F" fill="#6868F6" cx="46.1309524" cy="241.694352" rx="3.47222222" ry="3.48837209"></ellipse>
+                <ellipse id="Oval-4" stroke="#5B606F" fill="#6868F6" cx="89.781746" cy="227.740864" rx="3.47222222" ry="3.48837209"></ellipse>
+                <ellipse id="Oval-4" stroke="#5B606F" fill="#6868F6" cx="131.448413" cy="202.82392" rx="3.47222222" ry="3.48837209"></ellipse>
+                <ellipse id="Oval-4" stroke="#5B606F" fill="#6868F6" cx="176.09127" cy="152.990033" rx="3.47222222" ry="3.48837209"></ellipse>
+                <ellipse id="Oval-4" stroke="#5B606F" fill="#6868F6" cx="206.845238" cy="3.48837209" rx="3.47222222" ry="3.48837209"></ellipse>
             </g>
         </g>
     </g>
