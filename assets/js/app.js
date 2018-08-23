@@ -1,3 +1,24 @@
+//new javascript written in SF, not the font luckily 
+
+//$('.header__top').toggleClass('top__fixed');
+
+const nav = document.querySelector('.header__top');
+
+function fixedHeader(e) { 
+  console.log(window.scrollY);
+  if(window.scrollY > 0) {
+    nav.classList.add('top__fixed');
+  } else {
+    nav.classList.remove('top__fixed');
+  };
+}
+
+window.addEventListener('scroll', fixedHeader);
+
+
+
+//old stuff
+
 //delayed animation of browser window animation/entry
 $(document).ready(function() {
   setTimeout(
@@ -34,11 +55,11 @@ $('body').click(function () {
 
 
 //adding test button RECENT to test animation of header
-$(document).ready(function () {
-  $('.test-button').on('click', function () {
-    $('.header__top').toggleClass('top__fixed');
-  });
-});
+// $(document).ready(function () {
+//   $('.test-button').on('click', function () {
+//     $('.header__top').toggleClass('top__fixed');
+//   });
+// });
 
 //closing mobile nav, restoring hamburger, and changing back overlay color on mobile
 //nav selection
@@ -175,7 +196,7 @@ $(document).ready(function() {
 
 
 
-$(window).scroll(function (event) {
-    var scroll = $(window).scrollTop();
-    console.log(scroll);
-});
+// $(window).scroll(function (event) {
+//     var scroll = $(window).scrollTop();
+//     console.log(scroll);
+// });
